@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(68, 58, 58);
+    color: white;
+    margin: 0;
+    
+}
+
+#main {
+    border: 1px solid rgb(126, 106, 104);
+    width: 345px;
+    display: flex;
+    align-content: flex-end;
+    margin: 5px;
+    padding: 0px 10px;
+    
+}
+#logo {
+    width: 30%;
+}
