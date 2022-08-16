@@ -1,19 +1,73 @@
+* {
+	/* min-height: 10px; */
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
-    background-color: rgb(68, 58, 58);
-    color: white;
-    margin: 0;
-    
+	background: rgb(43, 41, 41);
+	text-shadow: 2px 2px 2px black;
+}
+.postcard {
+	/* background: rgb(28, 141, 247); */
+	color: rgba(255, 255, 255, 0.993);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	border-radius: 8px;
+	border: 2px dashed white;
+	background: url(https://media3.giphy.com/media/l3E6IlIx5f9nVjd84/giphy.gif?cid=ecf05e475k8fq2c56l2vkqqm2btiwidedk1qtie2fu4tr4sd&rid=giphy.gif&ct=g);
+	background-size: cover;
+}
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+}
+/* h1 {
+	margin: none;
+} */
+
+img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-right,
+.body-left {
+	padding: 5px;
+	margin: 2px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	background: none;
+	color: white;
+}
+input:hover {
+	border: 1px solid white;
+}
+::placeholder {
+	color: white;
 }
 
-#main {
-    border: 1px solid rgb(126, 106, 104);
-    width: 345px;
-    display: flex;
-    align-content: flex-end;
-    margin: 5px;
-    padding: 0px 10px;
-    
+p {
+	font-size: 12px;
 }
-#logo {
-    width: 30%;
+.postcard-footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 40px;
+}
+button {
+	border-radius: 5px;
+	background: rgb(39, 139, 221);
+	color: rgb(248, 244, 244);
+	border: none;
+}
+
+button:hover {
+	border: 1px solid rgb(255, 255, 255);
+	color: rgb(212, 240, 55);
 }
